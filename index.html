@@ -40,6 +40,15 @@
 			.blue {
 				background-color: blue;
 			}
+            pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      font-family: Consolas, "Courier New", monospace;
+    }
 		</style>
 		<script src=""></script>
 		<link rel="stylesheet" href="style.css" />
@@ -289,7 +298,7 @@
  -->
 <!-- ! Lessons 11- 14 -->
 <!-- ! Assignment 1 -->
-<h2>My Info</h2>
+<h2 id="link">My Info</h2>
 <p>My name is <b>Mounia</b></p>
 <p>I am <strong>Available</strong> for Hire</p>
 <p>My hour old price is <del>$10</del> and the new price id <mark>$30</mark></p>
@@ -356,3 +365,58 @@
         </ol>
     </li>
  </ul>
+ <!--! Assignment 3  -->
+ <!-- Go To External Link -->
+<a href="https://google.com">Google</a>
+<!-- Go To External Link and open it in new tab -->
+<a href="https://google.com" target="_blank">Google</a>
+<!-- send email -->
+<a href="mailto:mouniabelkheir@outlook.com">Send Email</a>
+<!-- go to a section in the same page -->
+<a href="#link">section</a>
+<!-- Go To Internal Page -->
+<!-- <a href="about.html">About Us</a> -->
+ <hr>
+ <h1>Anchor Tag Examples</h1>
+
+ <p>Go To External Link:</p>
+ <pre><code>&lt;a href="https://google.com"&gt;Google&lt;/a&gt;</code></pre>
+
+ <p>Go To Internal Page:</p>
+ <pre><code>&lt;a href="about.html"&gt;About Us&lt;/a&gt;</code></pre>
+
+ <p>Go To Section Within Same Page:</p>
+ <pre><code>&lt;a href="#contact"&gt;Contact Us&lt;/a&gt;</code></pre>
+
+ <p>Open Link In New Tab:</p>
+ <pre><code>&lt;a href="https://example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code></pre>
+
+ <p>Send Email:</p>
+ <pre><code>&lt;a href="mailto:someone@example.com"&gt;Email Us&lt;/a&gt;</code></pre>
+
+ <p>Call Phone Number:</p>
+ <pre><code>&lt;a href="tel:+1234567890"&gt;Call Us&lt;/a&gt;</code></pre>
+
+ <p>Download File:</p>
+ <pre><code>&lt;a href="files/document.pdf" download&gt;Download Document&lt;/a&gt;</code></pre>
+
+ <p>Link With Query String:</p>
+ <pre><code>&lt;a href="search.html?q=example"&gt;Search for Example&lt;/a&gt;</code></pre>
+
+ <p>FTP Link:</p>
+ <pre><code>&lt;a href="ftp://ftp.example.com/file.zip"&gt;Download via FTP&lt;/a&gt;</code></pre>
+
+ <p>JavaScript Link:</p>
+ <pre><code>&lt;a href="javascript:void(0);" onclick="alert('Hello!')"&gt;Click Me&lt;/a&gt;</code></pre>
+
+ <p>Link With rel Attribute:</p>
+ <pre><code>&lt;a href="https://example.com" rel="noopener noreferrer" target="_blank"&gt;Example&lt;/a&gt;</code></pre>
+
+ <p>Link With Title Attribute:</p>
+ <pre><code>&lt;a href="https://example.com" title="Go to Example Website"&gt;Example&lt;/a&gt;</code></pre>
+
+ <p>Link With Class And ID:</p>
+ <pre><code>&lt;a href="https://example.com" class="example-link" id="example1"&gt;Example&lt;/a&gt;</code></pre>
+
+ <p>Video Call Link:</p>
+ <pre><code>&lt;a href="skype:username?call"&gt;Call on Skype&lt;/a&gt;</code></pre>
