@@ -3,20 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Semantic Elements</title>
 	</head>
 	<body>
 		<!--! Assignment 1  -->
-		<h3>
-			In HTML, there is a set of elements used to build the structure of web
-			pages. Of the elements you mentioned, the following are part of the HTML5
-			specification:
-		</h3>
-		<pre
-			style="
-				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-					'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-			"><h4>
+		<!-- <div>
+			<h3>
+				In HTML, there is a set of elements used to build the structure of web
+				pages. Of the elements you mentioned, the following are part of the
+				HTML5 specification:
+			</h3>
+			<pre
+				style="
+					font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+						'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				"><h4>
 &lt;header&gt;: Used to define the header of a page or section.
 &lt;nav&gt;: Used to define the navigation section.
 &lt;main&gt;: Used to define the main content of the page.
@@ -29,5 +30,62 @@
 &lt;article&gt;: Used to define an article or an independent piece of content.
 &lt;ruby&gt;: Used to define ruby annotations, such as pronunciation guides for East Asian text.</h4>
 </pre>
+		</div> -->
+<!--! Assignment 2  -->
+		<header>
+			<h1>Semantic Elements</h1>
+			<nav>
+				<ul style="display: flex; list-style: none; gap: 10px">
+					<li><a href="#">One</a></li>
+					<li><a href="#">Two</a></li>
+					<li><a href="#">Three</a></li>
+					<li><a href="#">Four</a></li>
+					<li><a href="#">Five</a></li>
+				</ul>
+			</nav>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Nav Element</a></li>
+				<li><a href="#">Nav Element</a></li>
+				<li><a href="#">Nav Element</a></li>
+				<li><a href="#">Nav Element</a></li>
+				<li><a href="#">Nav Element</a></li>
+			</ul>
+		</nav>
+		<main>
+			<article>
+				<h1>This article 1</h1>
+				<p>This is paragraph</p>
+				<img src="https://placehold.co/100/orange/white" alt="" />
+				<a href="http://">Read More</a>
+			</article>
+			<hr />
+			<article>
+				<h1>This article 2</h1>
+				<p>This is paragraph</p>
+				<img src="https://placehold.co/100/red/white" alt="" />
+				<a href="http://">Read More</a>
+			</article>
+			<hr />
+			<article>
+				<h1>This article 3</h1>
+				<p>This is paragraph</p>
+				<img src="https://placehold.co/100/pink/white" alt="" />
+				<a href="http://">Read More</a>
+			</article>
+			<hr />
+		</main>
+		<aside>
+			<h3>Categories</h3>
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</aside>
+		<footer>Copyright 2021 &copy;</footer>
 	</body>
 </html>
