@@ -88,13 +88,32 @@
 		</aside>
 		<footer>Copyright 2021 &copy;</footer>
 		<!--! Assignment 3  -->
-		<audio autoplay loop controls>
+		<audio loop controls>
 			<source
 				src="https://diviextended.com/wp-content/uploads/2021/10/sound-of-waves-marine-drive-mumbai.mp3"
 				type="audio/mpeg" />
 			<source src="example.weba" type="audio/webm" />
 			<source src="example.oga" type="audio/ogg" />
-			The Browser doesn't support audio files
+			<p>The Browser doesn't support audio files</p>
 		</audio>
+		<!--! Assignment 4  -->
+		<video autoplay controls muted width="400" poster="">
+			<source
+				src="https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+				type="video/mp4" />
+			<source src="example.webm" type="video/webm" />
+			<source src="example.mpeg" type="video/mpeg" />
+			<track
+				kind="captions"
+				srclang="en"
+				label="English"
+				src="captions_en.vtt" />
+			<track
+				kind="subtitles"
+				srclang="fr"
+				label="French"
+				src="captions_fr.vtt" />
+			<p>The Browser doesn't support video files</p>
+		</video>
 	</body>
 </html>
