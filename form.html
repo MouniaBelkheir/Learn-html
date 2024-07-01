@@ -67,6 +67,30 @@
 			<input type="submit" value="Send Data" />
 		</form>
 		<!--! Assignment 2  -->
-		<input type="range" name="range" max="400" />
+		<input type="range" name="range" max="400" value="0" />
+		<hr />
+		<!--! Lessons 28-30  -->
+		<!--! Assignment 1  -->
+		<form action="form.html" method="get">
+			<div>
+				<label for="Token"></label>
+				<input type="hidden" name="Token" id="Token"
+				value="b92f1fc2fce391ad7af633723afd3055" / >
+			</div>
+			<br />
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="Email" id="Email" value="o@o.com" readonly/ >
+			</div>
+			<br />
+			<div>
+				<label for="User">Username</label>
+				<input type="text" name="User" id="User" autofocus required min="5"
+				max="20"/ >
+			</div>
+			<br />
+			<input type="reset" value="Empty" />
+			<input type="submit" value="Send" />
+		</form>
 	</body>
 </html>
